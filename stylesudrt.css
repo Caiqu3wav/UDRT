@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Orbitron:wght@500&family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Josefin+Sans:wght@500&family=Orbitron:wght@500&family=Poppins:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: rgb(226, 234, 253);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+nav{
+    display: flex;
+    background-color: rgb(85, 161, 197);
+    height: 9vh;
+    align-items: center;
+    justify-content:space-around
+    
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+    padding-right: 500px;
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+.nav_list{
+   display: flex;
+    list-style: none;
+   
+}
+
+.nav_list li{
+    margin-left: 30px;
+   
+}
+
+main{
+    background-image: url(IMG/mbtibg-fotor-20230915154615\(2\).jpg);
+     height: 690px;
+     background-size: cover;
+ }
+ 
+ 
+ 
+ .main_logo{
+     position: absolute;
+     top: 330px;
+     left: 90px;
+     font-family: 'Josefin Sans', sans-serif;
+ font-family: 'Orbitron', sans-serif;
+ font-family: 'Poppins', sans-serif;
+ font-style: italic;
+ color: rgb(214, 233, 250);
+ }
+ 
+ .main_text_logo{
+    position: absolute;
+    top:378px;
+    left: 95px;
+     font-size: 23px;
+     font-family: 'Aref Ruqaa Ink', serif;
+ font-family: 'Josefin Sans', sans-serif;
+ font-family: 'Orbitron', sans-serif;
+ font-family: 'Poppins', sans-serif;
+ color: rgb(113, 149, 216);
+ }
+ 
+ .overlay {
+     position: absolute;
+     top: 260px;
+     left: 70px;
+     width: 380px;
+     height: 240px;
+     background-color: rgba(0, 0, 0, 0.5); /* 0.5 define a opacidade (ajuste conforme necessário) */
+     border-radius: 20px; /* Bordas arredondadas */
+     
+ }
+ 
+ 
+ 
