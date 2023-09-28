@@ -45,7 +45,7 @@ font-family: 'Poppins', sans-serif;
    
 }
 
-main{
+.main_one{
     background-image: url(IMG/mbtibg-fotor-20230915154615\(2\).jpg);
      height: 690px;
      background-size: cover;
@@ -87,5 +87,72 @@ main{
      
  }
  
- 
- 
+ .overlay_two{
+    position: absolute;
+    top: 205px;
+    left: 817px;
+    width: 480px;
+    height: 340px;
+    background-color: rgba(0, 0, 0, 0.5); /* 0.5 define a opacidade (ajuste conforme necessário) */
+    border-radius: 20px; /* Bordas arredondadas */
+ }
+
+ .main_text{
+   position: absolute;
+    width: 450px;
+    border: solid 3px;
+    border-radius: 2px;
+    border-color: rgb(214, 233, 250, 0.5);
+left: 830px;
+top: 225px;
+padding-left: 2px;
+color: rgb(113, 149, 216);
+font-size: 18px;
+font-family: 'Aref Ruqaa Ink', serif;
+ font-family: 'Josefin Sans', sans-serif;
+ font-family: 'Orbitron', sans-serif;
+ font-family: 'Poppins', sans-serif;
+ }
+
+ .main_two{
+    background-image: linear-gradient(red, blue, 0.5);
+    height: 666px;
+ }
+
+ .main_two h1{
+    padding-left: 50px;
+    padding-top: 50px;
+    color: rgb(214, 233, 250);
+    font-family: 'Josefin Sans', sans-serif;
+ font-family: 'Orbitron', sans-serif;
+ font-family: 'Poppins', sans-serif;
+ font-style: italic;
+ color: rgb(214, 233, 250);
+ }
+
+ .main_two_text{
+    display: flex;
+    padding-left: 20px;
+    width: 400px;
+    font-size: 13px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(113, 149, 216);
+    border: solid 2px;
+ }
+
+ .main_two_2text{
+    position: absolute;
+    top: 930px;
+    margin-left: 550px;
+    width: 300px;
+    font-size: 13px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(113, 149, 216);
+    border: solid 2px;
+ }
